@@ -1,0 +1,47 @@
+* {
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: lightgoldenrodyellow;
+}
+
+h1 {
+	background-color: beige;
+	color: brown;
+	height: 100px;
+	width: 100vw;
+	font-size: 50px;
+	padding: 25px 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: brown 5px solid;
+}
+
+ul {
+	list-style-type: none;
+	background-color: lightgoldenrodyellow;
+	padding: 50px;
+	border-bottom: brown 5px solid;
+}
+
+li {
+	font-size: 40px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: brown;
+	text-decoration: none;
+	transition: filter 0.2s ease;
+}
+
+a:hover {
+	filter: brightness(1.4);
+}
